@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_view1"
+        android:layout_width="125dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/txt_view2"
+        android:layout_width="125dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/txt_view11"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="78dp"
+        android:id="@+id/txt_view3"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_toRightOf="@+id/txt_view12"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textAlignment="center"/>
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:paddingTop="10dp"
+        >
+
+
+    </ListView>
+</LinearLayout>

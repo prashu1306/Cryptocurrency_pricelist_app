@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Display_listview">
+
+
+    <TextView
+        android:id="@+id/txt_view11"
+        android:layout_width="125dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="NAME"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/txt_view12"
+        android:layout_width="128dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_view11"
+        android:gravity="center"
+        android:text="USD"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txt_view13"
+        android:layout_width="125dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_view12"
+        android:gravity="center"
+        android:text="CHANGE_1"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_view11"
+        android:paddingTop="20dp"></ListView>
+
+
+</RelativeLayout>
